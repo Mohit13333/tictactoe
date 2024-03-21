@@ -4,6 +4,7 @@ let newGameBtn = document.querySelector("#new-btn");
 let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
 let reset=document.querySelector(".hiden");
+let body=document.querySelector("body");
 let turnO = true; 
 let count = 0;
 const winPatterns = [
@@ -16,13 +17,14 @@ const winPatterns = [
   [3, 4, 5],
   [6, 7, 8],
 ];
-
+const body=  () => {
+reset.classList.remove("hiden");
+}
 const resetGame = () => {
   turnO = true;
   count = 0;
   enableBoxes();
   msgContainer.classList.add("hide");
-    reset.classList.remove("hiden");
 };
 
 boxes.forEach((box) => {
