@@ -4,12 +4,7 @@
 }
 h1{
     color: #0f5d63;
-    background-color: #2ece7eab;
-    width: 250px;
-    margin-left: 42%;
-    margin-right:42%;
-    text-align: center;
-    border-radius: 0.5rem;
+    width: 250px;   
 }
 body {
     background-color: #3fa0a1;
