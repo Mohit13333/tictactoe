@@ -19,7 +19,7 @@ const winPatterns = [
 ];
 const body=  () => {
 reset.classList.remove("hiden");
-}
+};
 const resetGame = () => {
   turnO = true;
   count = 0;
