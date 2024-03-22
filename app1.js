@@ -21,7 +21,6 @@ const resetGame = () => {
   count = 0;
   enableBoxes();
   msgContainer.classList.add("hide");
-  reset.classList.remove("hiden");
 };
 
 boxes.forEach((box) => {
