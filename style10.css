@@ -27,7 +27,7 @@ body {
     gap:1.5vmin;
 }
 .box{
-    height:18vmin;
+    height:25vmin;
     width: 18vmin;
     border: none !important;
     border-radius: 1rem !important;
@@ -35,7 +35,13 @@ body {
     color: #ce79d3;
     background-color: #90cee2;
 }
+.box:hover{
+    background-image:url("IMG_20231203_205223_523_1711170598607.jpg");
+    background-size:cover;
+    color:maroon;
+}
 #reset-btn{
+    margin-top:17vmin;
     padding: 1rem;
     font-size: 1.3rem;
     background-color: #383830ce;
