@@ -19,7 +19,7 @@ body {
 }
 .game{
     height: 60vmin;
-    width: 60vmin;
+    width: 75vmin;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -28,7 +28,7 @@ body {
 }
 .box{
     height:25vmin;
-    width: 18vmin;
+    width: 25vmin;
     border: none !important;
     border-radius: 1rem !important;
     font-size: 8vmin !important;
