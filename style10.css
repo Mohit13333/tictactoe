@@ -27,12 +27,11 @@ body {
     gap:1.5vmin;
 }
 .box{
-    padding:3rem;
     height:20vmin;
     width: 18vmin;
     border: none !important;
     border-radius: 1rem !important;
-    font-size: 8vmin !important;
+    font-size: 13vmin !important;
     color: #ce79d3;
     background-color: #90cee2;
 }
