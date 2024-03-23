@@ -27,6 +27,7 @@ body {
     gap:1.5vmin;
 }
 .box{
+    padding:3rem;
     height:20vmin;
     width: 18vmin;
     border: none !important;
