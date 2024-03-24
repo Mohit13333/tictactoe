@@ -8,16 +8,13 @@ let turnO = true;
 let count = 0;
 const winPatterns = [
   [0, 1, 2],
-  [0, 3, 6,9],
+  [0, 3, 6],
   [0, 4, 8],
-  [1, 4, 7,10],
-  [2, 5, 8,11],
+  [1, 4, 7],
+  [2, 5, 8],
   [2, 4, 6],
   [3, 4, 5],
   [6, 7, 8],
-  [5, 7, 9], 
-  [3, 7 , 11], 
-  [9, 10,11],
 ];
 const resetGame = () => {
   turnO = true;
@@ -41,7 +38,7 @@ boxes.forEach((box) => {
 
     let isWinner = checkWinner();
 
-    if (count === 12 && !isWinner) {
+    if (count === 9 && !isWinner) {
       gameDraw();
     }
   });
