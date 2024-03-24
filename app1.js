@@ -42,7 +42,7 @@ boxes.forEach((box) => {
 
     let isWinner = checkWinner();
 
-    if (count === 9 && !isWinner) {
+    if (count === 12 && !isWinner) {
       gameDraw();
     }
   });
