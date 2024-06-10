@@ -7,7 +7,7 @@ let reset=document.querySelector(".hiden");
 let turnO = true; 
 let count = 0;
 const winPatterns = [
-  [0, 1, 3],
+  [0, 1, 2],
   [0, 3, 6],
   [0, 4, 8],
   [1, 4, 7],
