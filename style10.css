@@ -10,7 +10,7 @@ h1{
     margin-top:10px;
 }
 body {
-    background-color: #3fa0a1;
+    background-color: #ee82ee;
     text-align: center;
 }
 .container{
@@ -36,7 +36,7 @@ body {
     border-radius: 1rem !important;
     font-size: 13vmin !important;
     color: #ce79d3;
-    background-color: #90cee2;
+    background-color: #ff64b9;
 }
 .box:hover{
     background-image:url("IMG_20231203_205223_523_1711170598607.jpg");
