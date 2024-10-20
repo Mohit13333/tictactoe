@@ -20,9 +20,6 @@ body {
     align-items: center;
     gap:1.5vmin;
 }
-main{
-    cursor:pointer;
-}
 .game{
     height: 60vmin;
     width: 60vmin;
@@ -40,6 +37,7 @@ main{
     font-size: 13vmin !important;
     color: #1DD3BD;
     background-color: #FE346E;
+    cursor:pointer;
 }
 .box:hover{
     background-image:url("1727701807849.jpg");
@@ -54,6 +52,7 @@ main{
     color: #f3f3f3 !important;
     border-radius: 1rem !important;
     border: none !important;
+    cursor:pointer;
 }
 #new-btn{
     padding: 1rem;
