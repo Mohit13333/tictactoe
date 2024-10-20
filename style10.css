@@ -62,6 +62,7 @@ main{
     color: #f3f3f3 !important;
     border-radius: 1rem !important;
     border: none !important;
+    cursor:pointer;
 }
 #msg{
  color: #f3f3f3;
