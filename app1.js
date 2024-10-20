@@ -48,8 +48,6 @@ boxes.forEach((box) => {
 
 const gameDraw = () => {
   msg.innerText = "Game Drawn";
-  msgContainer.classList.remove("hide");
-  reset.classList.add("hiden");
   disableBoxes();
 };
 
@@ -68,8 +66,6 @@ const enableBoxes = () => {
 
 const showWinner = (winner) => {
   msg.innerText = `Congratulations, Winner is ${winner}`;
-  msgContainer.classList.remove("hide");
-  reset.classList.add("hiden");
   disableBoxes();
 };
 
