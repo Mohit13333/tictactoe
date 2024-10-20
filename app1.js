@@ -29,9 +29,13 @@ boxes.forEach((box) => {
     if (turnO) {
       box.innerText = "O";
       turnO = false;
+      msgContainer.classList.add("hide");
+      reset.classList.remove("hiden");
     } else {
       box.innerText = "X";
       turnO = true;
+      msgContainer.classList.add("hide");
+      reset.classList.remove("hiden");
     }
     box.disabled = true;
     count++;
