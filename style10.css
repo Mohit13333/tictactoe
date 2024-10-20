@@ -19,6 +19,8 @@ body {
     justify-content: center;
     align-items: center;
     gap:1.5vmin;
+}
+main{
     cursor:pointer;
 }
 .game{
@@ -42,7 +44,7 @@ body {
 .box:hover{
     background-image:url("1727701807849.jpg");
     background-size:cover;
-    color:maroon;
+    color:#FF5722;
 }
 #reset-btn{
     margin-top:17vmin;
