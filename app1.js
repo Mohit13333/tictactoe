@@ -87,6 +87,6 @@ const checkWinner = () => {
     }
   }
 };
-
+reset.classList.add("hiden");
 newGameBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
