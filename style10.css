@@ -19,6 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     gap:1.5vmin;
+    cursor:pointer;
 }
 .game{
     height: 60vmin;
@@ -37,7 +38,6 @@ body {
     font-size: 13vmin !important;
     color: #1DD3BD;
     background-color: #FE346E;
-    cursor:pointer;
 }
 .box:hover{
     background-image:url("IMG_20231203_205223_523_1711170598607.jpg");
