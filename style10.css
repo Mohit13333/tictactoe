@@ -37,6 +37,7 @@ body {
     font-size: 13vmin !important;
     color: #ce79d3;
     background-color: #ff64b9;
+    cursor:pointer;
 }
 .box:hover{
     background-image:url("IMG_20231203_205223_523_1711170598607.jpg");
