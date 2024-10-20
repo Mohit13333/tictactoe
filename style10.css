@@ -6,7 +6,7 @@ html{
     user-select: none;
 }    
 h1{
-    color: #0f5d63;  
+    color: #2C786C;  
     margin-top:10px;
 }
 body {
@@ -35,8 +35,8 @@ body {
     border: none !important;
     border-radius: 1rem !important;
     font-size: 13vmin !important;
-    color: #ce79d3;
-    background-color: #ff64b9;
+    color: #1DD3BD;
+    background-color: #FE346E;
     cursor:pointer;
 }
 .box:hover{
